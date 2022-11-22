@@ -66,3 +66,106 @@ h1, h2 {
     background-color: var(--blanco);
     padding: 5rem;
 }
+
+/* 1 */
+
+.d-flex{
+    display: flex;
+}
+
+.d-flex-2{
+    display: flex;
+    flex-direction: column;
+}
+
+.d-flex-3{
+    display: flex;
+    justify-content: center;
+}
+
+.d-flex-4{
+    display: flex;
+    flex-direction: column;
+    height: 100rem;
+    justify-content: center;
+}
+
+.d-flex-5{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.d-flex-6{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+}
+
+.d-flex-7{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.d-flex-8{
+    display: flex;
+}
+
+.d-flex-8 .box{
+    flex-basis: 333.33%;
+}
+
+.d-flex-9{
+    display: flex;
+    justify-content: space-between;
+}
+
+.d-flex-9 .box{
+    flex-basis: calc(33.33% - 1rem);
+    
+}
+
+.d-flex-10{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.d-flex-10 .box{
+    flex-basis: calc(33.33% - 1rem);
+}
+
+.d-flex-11{
+    display: flex;
+}
+
+.d-flex-11 .box:nth-child(1){
+    flex-grow: 1;
+}
+
+.d-flex-11 .box:nth-child(2){
+    flex-grow: 2;
+}
+
+.d-flex-11 .box:nth-child(3){
+    flex-grow: 3;
+}
+
+.d-flex-12{
+    display: flex;
+}
+
+.d-flex-12 .box{
+    flex-grow: 1;
+    flex-basis: 300px;
+}
+
+.d-flex-12 .box:nth-child(3){
+    flex-shrink: 3;
+}
+
